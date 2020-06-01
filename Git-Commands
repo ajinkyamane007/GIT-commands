@@ -1,6 +1,27 @@
 
-To initiat git
+# To initiat git
 git init
+
+git config --global user.name "ajinkyamane007"
+git config --global user.email "ajinkyamane3996@gmail.com"
+
+# Check
+ git config --global user.name 
+ > ajinkyamane007
+ git config --global user.email 
+ > ajinkyamane3996@gmail.com
+
+ == OR ==
+
+git config --global --list
+> user.email=ajinkyamane3996@gmail.com
+> user.name=ajinkyamane007
+
+
+# If wrong then To change
+ git config --global --unset-all user.name
+ git config --global --unset-all user.email
+
 
 To add files in Staging Area
  git add  <file name>  //single file
