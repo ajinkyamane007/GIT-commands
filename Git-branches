@@ -1,8 +1,21 @@
 
 ===== Branch Merging ====
 
-git checkout <banchname>
-git add -add
-git commit -m "Branches added"
-git status
-git push -u origin <branchname>
+# Create Branch <developer>
+
+ git branch
+ git branch developer
+ git status
+ git add -add
+ git commit -m "Branches added"
+ git status
+ git push -u origin <branchname>
+
+# Go to Master to merge Branch
+ 
+ git checkout <banchname>
+ git branch
+ git merge developer
+ git push -u origin master
+
+
