@@ -1,0 +1,60 @@
+
+To initiat git
+git init
+
+To add files in Staging Area
+ git add  <file name>  //single file
+ git add -A      // All files present in Dir 
+ git add .       // All files present in Dir
+
+To remove file from staging Area
+ git rm --cached  <file name>
+
+To check status 
+ git status
+
+To add files from Staging Area to Final it Directory
+ git commit -m "Write Comment here"
+
+File directly Added into Directory
+ git commit -a -m "Added "
+
+============== Branches=================
+
+Display all braches list
+ git branch
+ >   feature1
+     feature2
+     * master
+
+check current working branch
+ git checkout master
+ >   feature
+     feature1
+     * master
+
+New branch created & checked 
+ git branch feature2
+ git branch
+ >  feature1
+    feature2
+    * master
+
+New branch created & selected as working branch
+ git checkout -b feature1
+ > Switched to a new branch 'feature2'
+
+Delete branch
+ git branch -d feature
+ > Deleted branch feature (was 7fe15b9).
+
+ ============== Git info ===============
+
+ git remote
+ > origin
+
+ git remote -v
+ > origin https://github.com/ajinkya12121/JQuery01.git (fetch)
+ > origin https://github.com/ajinkya12121/JQuery01.git (push)
+
+======= This file modified inside modifer ===============
