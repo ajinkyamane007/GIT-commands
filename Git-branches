@@ -1,0 +1,8 @@
+
+===== Branch Merging ====
+
+git checkout <banchname>
+git add -add
+git commit -m "Branches added"
+git status
+git push -u origin <branchname>
