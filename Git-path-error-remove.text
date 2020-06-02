@@ -1,0 +1,24 @@
+
+# Git path error #
+
+ git remote -v  ( Wrong url to Remote Server )
+ > origin gitlab.com/ajinkyamane3996/js-validation-cdac.git (fetch)
+ > origin gitlab.com/ajinkyamane3996/js-validation-cdac.git (push)
+
+ git push -u origin master ( Error statements )
+ > fatal: 'gitlab.com/ajinkyamane3996/js-validation-cdac.git' does not appear to be a git repository
+   fatal: Could not read from remote repository.
+   Please make sure you have the correct access rights and the repository exists.
+
+# Change URL path #
+
+  ( Right URL path set by following command )
+ git remote set-url origin https://gitlab.com/ajinkyamane3996/js-validation-cdac.git
+
+ git remote -v ( Checkout- Right URL path set by above command )
+ > origin https://gitlab.com/ajinkyamane3996/js-validation-cdac.git (fetch)
+ > origin https://gitlab.com/ajinkyamane3996/js-validation-cdac.git (push)
+
+ git push -u origin master (Files successfully added in repository)
+ > Username for 'https://gitlab.com': ajinkyamane3996
+ > Password for 'https://ajinkyamane3996@gitlab.com':
